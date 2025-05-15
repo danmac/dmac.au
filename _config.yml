@@ -11,10 +11,11 @@ background: 'background.png'
 favicon: 'favicon.ico'
 
 # Online profiles
+bluesky: 'dmac.au'
 #dribbble: 'mydribbble'
 #facebook: 'myfacebook'
 mastodon: 'aus.social/@danmac'
-twitter: 'danmac'
+#twitter: 'danmac'
 #linkedin: 'mylinkedin'
 #instagram: 'myinsta'
 #pinterest: 'mypinterest'
@@ -36,7 +37,7 @@ github-user: 'danmac'
 email: 'danmac@dmac.au'
 #messenger: 'myfbchat'
 
-social-links-order: [facebook, twitter, mastodon, github-user, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
+social-links-order: [bluesky, facebook, twitter, mastodon, github-user, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -58,6 +59,10 @@ social-links-order: [facebook, twitter, mastodon, github-user, instagram, tumblr
 #     - defaults to `fab` style and uses value of `name` attribute (e.g. fab fa-2x fa-twitter)
 #     - **optional**
 social-links:
+  - name: bluesky
+    url-pattern: https://bsky.app/profile/__USERNAME__
+    icon-class: fab fa-2x fa-bluesky
+
   - name: mastodon
     url-pattern: __USERNAME__
     icon-class: fab fa-2x fa-mastodon

@@ -61,7 +61,6 @@ social-links-order: [bluesky, facebook, twitter, mastodon, github-user, instagra
 social-links:
   - name: bluesky
     url-pattern: https://bsky.app/profile/__USERNAME__
-    icon-class: fab fa-2x fa-bluesky
 
   - name: mastodon
     url-pattern: __USERNAME__
